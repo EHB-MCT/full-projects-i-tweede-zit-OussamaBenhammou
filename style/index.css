@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+.home {
+    background-color: gray;
+}
+
+.contact {
+    background-color: gray;
+}
+
+.about {
+    background-color: gray;
+}
+
+
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.opacity {
+    opacity: 20%;
+    position: relative;
+}
+
+
+
+
+li {
+    list-style: none;
+    font-size: 20px;
+
+}
+
+.navigatie li {
+
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.navigatie ul {
+    padding-left: 45%;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: inherit;
+    margin-top: 0px;
+
+
+}
+
+.logo  {
+    width: 5%;
+
+}
+
+.logo2  {
+    width: 5%;
+
+}
+
+
+
+.box p {
+    margin-left: 10em;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 100px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+
+.navigatie h2 {
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 55px;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.box h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 55px;
+    margin-left: 2.8em;
+    margin-top: 100px;
+    font-weight: initial;
+    margin-bottom: 50px;
+
+}
+
+
+
+.navigatie {
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+
+}
+
+
+.Home {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+
+
+.navigatie a:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.artikel {
+    display: flex;
+
+}
+
+.box img {
+    padding-top: 70px;
+}
+
+
+
+
+
+
+/* about  */
+
+
+
+.menu p {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 35px;
+
+
+}
+
+.menu h1 {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 20px;
+    font-size: 55px;
+    margin-top: 60px;
+
+}
+
+.imagesabout {
+
+    text-align: center;
+}
+
+
+
+
+.contact-form {
+    margin: auto;
+    width: 600px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    border-radius: 10px;
+    display: block;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 16px 0 20px 450px;
+    border: 0;
+    background-color: white;
+    padding: 20px 40px;
+    outline: none;
+    color: grey;
+    transition: 0.5s;
+}
+
+.contact-form-text:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px black;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+    margin-left: 450px;
+
+}
+
+.contact-form-btn {
+    margin-left: 450px;
+    border: 0;
+    background: white;
+    color: #334961;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    box-shadow: 0 0 10px white;
+
+}
+
+.contact-bg {
+    background-color: #334961;
+    height: 100vh;
+}
+
+/* contact */
+
+
+.contactmenu {
+    display: flex;
+}
+
+
+
+
+
+
+ 
