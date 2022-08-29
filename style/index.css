@@ -8,15 +8,15 @@
 
 
 .home {
-    background-color: gray;
+    background-color: white;
 }
 
 .contact {
-    background-color: gray;
+    background-color: white;
 }
 
 .about {
-    background-color: gray;
+    background-color: white;
 }
 
 
@@ -29,7 +29,7 @@ a {
 }
 
 h1 {
-    color: white;
+    color: #1e739a;
 }
 
 h2 {
@@ -37,7 +37,7 @@ h2 {
 }
 
 p {
-    color: white;
+    color: #1e739a;
 }
 
 .opacity {
@@ -90,6 +90,7 @@ li {
     margin-top: 100px;
     margin-top: 0px;
     margin-bottom: 20px;
+    color: black;
 
 }
 
@@ -104,7 +105,7 @@ li {
 
 .box h1 {
     font-family: 'Varela Round', sans-serif;
-    font-size: 55px;
+    font-size: 35px;
     margin-left: 2.8em;
     margin-top: 100px;
     font-weight: initial;
@@ -112,15 +113,13 @@ li {
 
 }
 
-
-
 .navigatie {
-
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-
-
+    background-color: #1e739a;
 }
+
+
+
+
 
 
 .Home {
@@ -140,8 +139,16 @@ li {
 
 }
 
-.box img {
-    padding-top: 70px;
+.box1 img {
+    /* float: right; */
+    padding: 70px;
+    width: 60%;   
+    margin: 50px;
+    margin-top: 70px
+}
+
+.box div {
+    flex: 1;
 }
 
 
@@ -149,7 +156,7 @@ li {
 
 
 
-/* about  */
+/* werken bij ons  */
 
 
 
@@ -174,6 +181,88 @@ li {
 
     text-align: center;
 }
+
+
+
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+   
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1e7199;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: white;
+    color: black;
+    
+   
+    
+    
+    
+  }
+ 
+
+
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
 
 
 
